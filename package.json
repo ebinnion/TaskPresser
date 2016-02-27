@@ -1,7 +1,7 @@
 {
-  "name": "react-slingshot",
+  "name": "TaskPresser",
   "version": "1.2.0",
-  "description": "Starter kit for creating apps with React and Redux",
+  "description": "A React/Redux/WP-API based to-do list.",
   "scripts": {
     "prestart": "npm run remove-dist",
     "start": "parallelshell \"npm run lint:tools\" \"npm run test:watch\" \"npm run open:src\"",
@@ -16,7 +16,7 @@
     "test": "cross-env NODE_ENV=test mocha --reporter progress --compilers js:babel-core/register --recursive \"./src/**/*.spec.js\"",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "Cory House",
+  "author": "Eric Binnion",
   "license": "MIT",
   "dependencies": {
     "object-assign": "4.0.1",
@@ -77,6 +77,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/coryhouse/react-slingshot"
+    "url": "https://github.com/ebinnion/TaskPresser"
   }
 }
